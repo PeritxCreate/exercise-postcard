@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@500&family=Playfair+Display&display=swap");
+
+body {
+	background: black;
+	font-family: "Dancing Script", cursive;
+	font-size: 105%;
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 320px;
+	margin: 10px 0 0 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left p {
+	text-align: justify;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	margin-top: 15px;
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family: "Dancing Script", cursive;
+	font-size: 110%;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: darkgray;
+	padding: 5px;
+	font-family: "Dancing Script", cursive;
+	font-size: 115%;
+}
